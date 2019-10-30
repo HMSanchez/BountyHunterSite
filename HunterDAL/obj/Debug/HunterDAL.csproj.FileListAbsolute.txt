@@ -1,0 +1,12 @@
+C:\Users\HSanchez\Desktop\Neumont\CSC260\BountyHunterBrowser\HunterDAL\bin\Debug\HunterDAL.dll.config
+C:\Users\HSanchez\Desktop\Neumont\CSC260\BountyHunterBrowser\HunterDAL\bin\Debug\HunterDAL.dll
+C:\Users\HSanchez\Desktop\Neumont\CSC260\BountyHunterBrowser\HunterDAL\bin\Debug\HunterDAL.pdb
+C:\Users\HSanchez\Desktop\Neumont\CSC260\BountyHunterBrowser\HunterDAL\bin\Debug\EntityFramework.dll
+C:\Users\HSanchez\Desktop\Neumont\CSC260\BountyHunterBrowser\HunterDAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\HSanchez\Desktop\Neumont\CSC260\BountyHunterBrowser\HunterDAL\bin\Debug\EntityFramework.xml
+C:\Users\HSanchez\Desktop\Neumont\CSC260\BountyHunterBrowser\HunterDAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\HSanchez\Desktop\Neumont\CSC260\BountyHunterBrowser\HunterDAL\obj\Debug\HunterDAL.csproj.CoreCompileInputs.cache
+C:\Users\HSanchez\Desktop\Neumont\CSC260\BountyHunterBrowser\HunterDAL\obj\Debug\HunterDAL.dll
+C:\Users\HSanchez\Desktop\Neumont\CSC260\BountyHunterBrowser\HunterDAL\obj\Debug\HunterDAL.pdb
+C:\Users\HSanchez\Desktop\Neumont\CSC260\BountyHunterBrowser\HunterDAL\obj\Debug\HunterDAL.csprojAssemblyReference.cache
+C:\Users\HSanchez\Desktop\Neumont\CSC260\BountyHunterBrowser\HunterDAL\obj\Debug\HunterDAL.csproj.CopyComplete

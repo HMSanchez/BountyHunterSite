@@ -1,0 +1,15 @@
+C:\Users\HSanchez\Desktop\Neumont\CSC260\BountyHunterBrowser\BountyHunterLib\bin\Debug\BountyHunterLib.dll
+C:\Users\HSanchez\Desktop\Neumont\CSC260\BountyHunterBrowser\BountyHunterLib\bin\Debug\BountyHunterLib.pdb
+C:\Users\HSanchez\Desktop\Neumont\CSC260\BountyHunterBrowser\BountyHunterLib\obj\Debug\BountyHunterLib.csproj.CoreCompileInputs.cache
+C:\Users\HSanchez\Desktop\Neumont\CSC260\BountyHunterBrowser\BountyHunterLib\obj\Debug\BountyHunterLib.dll
+C:\Users\HSanchez\Desktop\Neumont\CSC260\BountyHunterBrowser\BountyHunterLib\obj\Debug\BountyHunterLib.pdb
+C:\Users\HSanchez\Desktop\Neumont\CSC260\BountyHunterBrowser\BountyHunterLib\bin\Debug\BountyHunterLib.dll.config
+C:\Users\HSanchez\Desktop\Neumont\CSC260\BountyHunterBrowser\BountyHunterLib\bin\Debug\EntityFramework.dll
+C:\Users\HSanchez\Desktop\Neumont\CSC260\BountyHunterBrowser\BountyHunterLib\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\HSanchez\Desktop\Neumont\CSC260\BountyHunterBrowser\BountyHunterLib\bin\Debug\HunterDAL.dll
+C:\Users\HSanchez\Desktop\Neumont\CSC260\BountyHunterBrowser\BountyHunterLib\bin\Debug\HunterDAL.pdb
+C:\Users\HSanchez\Desktop\Neumont\CSC260\BountyHunterBrowser\BountyHunterLib\bin\Debug\HunterDAL.dll.config
+C:\Users\HSanchez\Desktop\Neumont\CSC260\BountyHunterBrowser\BountyHunterLib\bin\Debug\EntityFramework.xml
+C:\Users\HSanchez\Desktop\Neumont\CSC260\BountyHunterBrowser\BountyHunterLib\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\HSanchez\Desktop\Neumont\CSC260\BountyHunterBrowser\BountyHunterLib\obj\Debug\BountyHunterLib.csprojAssemblyReference.cache
+C:\Users\HSanchez\Desktop\Neumont\CSC260\BountyHunterBrowser\BountyHunterLib\obj\Debug\BountyHunterLib.csproj.CopyComplete

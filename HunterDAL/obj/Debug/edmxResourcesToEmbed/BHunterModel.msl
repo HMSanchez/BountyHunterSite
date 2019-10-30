@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BountyHuntersModelStoreContainer" CdmEntityContainer="BountyHuntersEntities">
+    <EntitySetMapping Name="TheHunters">
+      <EntityTypeMapping TypeName="BountyHuntersModel.TheHunter">
+        <MappingFragment StoreEntitySet="TheHunters">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="ImageUrl" ColumnName="ImageUrl" />
+          <ScalarProperty Name="Wage" ColumnName="Wage" />
+          <ScalarProperty Name="DetailOne" ColumnName="DetailOne" />
+          <ScalarProperty Name="DetailTwo" ColumnName="DetailTwo" />
+          <ScalarProperty Name="DetailThree" ColumnName="DetailThree" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,90 @@
+﻿@model BountyHunterLib.Model.HunterModel
+
+@{
+    ViewBag.Title = "Add a Hunter";
+}
+
+<h2>AddHunter</h2>
+
+@if (@Model == null)
+{
+    <div class="panel-heading text-left"><h4>Information Form</h4></div>
+    using(Html.BeginForm("AddHunter","Hunter",FormMethod.Post,new { @class = "formcontrol" }))
+    {
+        @Html.ValidationSummary()
+        <div class="form-group">
+            <label>Full name:</label>
+            @Html.TextBoxFor(x => x.Name, new { @class = "formcontrol" })
+        </div>                    <div class="form-group">
+            <label>Image Url:</label>
+            @Html.TextBoxFor(x => x.ImageUrl, new { @class = "formcontrol" })
+        </div>
+        <div class="form-group">
+            <label>Hunter's Wage (Ex: $500,000 ):</label>
+            @Html.TextBoxFor(x => x.Wage, new { @class = "formcontrol" })
+        </div>
+                    <div class="form-group">
+                        <label>Hunter Description:</label>
+                        @Html.TextBoxFor(x => x.Description, new { @class = "formcontrol" })
+                    </div>
+                    <div class="form-group">
+                        <label>Hunter Detail One (Something that defines the hunter):</label>
+                        @Html.TextBoxFor(x => x.DetailOne, new { @class = "formcontrol" })
+                    </div>
+                    <div class="form-group">
+                        <label>Hunter Detail Two:</label>
+                        @Html.TextBoxFor(x => x.DetailTwo, new { @class = "formcontrol" })
+                    </div>
+                    <div class="form-group">
+                        <label>Hunter Detail Three:</label>
+                        @Html.TextBoxFor(x => x.DetailThree, new { @class = "formcontrol" })
+                    </div>
+                    <div class="text-left">
+                        <input id="subButton" class="btn btn-success" type="submit"
+                               value="Submit Information" />
+                    </div>
+
+    }
+
+}else{
+
+
+    using(Html.BeginForm("EditHunter", "Hunter", FormMethod.Post, new { @class = "formcontrol" }))
+    {
+        @Html.ValidationSummary()
+        <div class="form-group">
+            <label>Full name:</label>
+            @Html.TextBoxFor(x => x.Name, new { @class = "formcontrol" })
+        </div>                    <div class="form-group">
+                <label>Image Url:</label>
+                @Html.TextBoxFor(x => x.ImageUrl, new { @class = "formcontrol" })
+            </div>
+            <div class="form-group">
+                <label>Hunter's Wage (Ex: $500,000 ):</label>
+                @Html.TextBoxFor(x => x.Wage, new { @class = "formcontrol" })
+            </div>
+            <div class="form-group">
+                <label>Hunter Description:</label>
+                @Html.TextBoxFor(x => x.Description, new { @class = "formcontrol" })
+            </div>
+                    <div class="form-group">
+                        <label>Hunter Detail One (Something that defines the hunter):</label>
+                        @Html.TextBoxFor(x => x.DetailOne, new { @class = "formcontrol" })
+                    </div>
+                    <div class="form-group">
+                        <label>Hunter Detail Two:</label>
+                        @Html.TextBoxFor(x => x.DetailTwo, new { @class = "formcontrol" })
+                    </div>
+                    <div class="form-group">
+                        <label>Hunter Detail Three:</label>
+                        @Html.TextBoxFor(x => x.DetailThree, new { @class = "formcontrol" })
+                    </div>
+                    <div class="text-left">
+                        <input id="subButton" class="btn btn-success" type="submit"
+                               value="Submit Information" />
+                    </div>
+
+    }
+
+}
+

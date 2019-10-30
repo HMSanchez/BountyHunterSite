@@ -1,0 +1,35 @@
+﻿@*@model BountyHunterBrowser.Models.RolesViewModel*@
+@model IEnumerable<BountyHunterBrowser.Models.RolesViewModel>
+@using Microsoft.AspNet.Identity
+
+@{
+    ViewBag.Title = "GetRoles";
+}
+
+<h2>Users/Roles</h2>
+
+
+@foreach (var user in Model.ToList())
+{
+    <div> @user.UserName --Username </div>
+    foreach (var role in user.RoleNames)
+    {
+        <div> @role --Role</div>
+    }
+    <br />
+    if(User.Identity.GetUserName() != user.UserName  ){
+        @*@Html.BeginForm(){
+
+            
+        }*@
+
+    <form action="@Url.Action("Promote", "Hunter")" method="post">
+        <input type="hidden" name="userId" value="1" />
+        <button type="submit">Promote</button>
+    </form>
+    <form action="@Url.Action("Demote", "Hunter")" method="post">
+        <input type="hidden" name="userId" value="1" />
+        <button type="submit">Demote</button>
+    </form>
+    }
+}

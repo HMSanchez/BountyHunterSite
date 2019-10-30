@@ -1,0 +1,35 @@
+﻿@model BountyHunterLib.Model.HunterListModel
+
+@{
+    ViewBag.Title = "Hunter Catalog";
+}
+
+<h2>Hunter Catalog</h2>
+
+@foreach (var hunt in Model.Hunters)
+{
+    <div class="ImageContainer">
+        @Html.ActionLink(hunt.Name, "HunterDetail", new { id = hunt.HunterId })
+        <br />
+        @hunt.Wage
+
+        <br />
+        @if (@User.IsInRole("Admin")) {
+
+        @Html.ActionLink("Delete", "DeleteHunter", new { id = hunt.HunterId })
+        }
+
+
+
+        
+        @*@Url.Content(hunt.ImageUrl);*@
+<div class="Imagez">
+
+        <img src="@Url.Content(hunt.ImageUrl)" width="130" height="270" />
+</div>
+        @*@hunt.ImageUrl*@
+        <br />
+
+    </div>
+}
+<hr style="clear:both;">

@@ -1,0 +1,36 @@
+﻿@model BountyHunterLib.Model.HunterModel
+
+@{
+    ViewBag.Title = "Hunter Detail";
+}
+
+<h2>Hunter Detail</h2>
+
+<div>
+    <img src="@Url.Content(@Model.ImageUrl)" width="150" height="300" />
+
+
+    @Model.Name
+    <br />
+    @Model.Description
+
+    <br />
+    <ul>
+        <li>@Model.DetailOne</li>
+        <li>@Model.DetailTwo</li>
+        <li>@Model.DetailThree</li>
+
+
+    </ul>
+
+    @if (@User.IsInRole("Admin")) {
+
+    @Html.ActionLink("Edit Hunter", "EditHunter", new { id = Model.HunterId })
+    }
+
+
+
+
+  
+
+</div>
